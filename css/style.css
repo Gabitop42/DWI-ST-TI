@@ -1,0 +1,18 @@
+/* Clase para el contenedor del perfil */
+.profile-container {
+  width: 50px; /* Tamaño del círculo */
+  height: 50px; /* Tamaño del círculo */
+  border-radius: 50%; /* Hace que el contenedor sea un círculo */
+  border: 3px solid white; /* Borde blanco alrededor del círculo */
+  overflow: hidden; /* Asegura que la imagen se recorte a la forma circular */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilo para la imagen dentro del círculo */
+.profile-container img {
+  width: 100%; /* La imagen ocupará todo el contenedor */
+  height: 100%; /* La imagen ocupará todo el contenedor */
+  object-fit: cover; /* Hace que la imagen se recorte para mantener la proporción */
+}
