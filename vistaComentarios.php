@@ -80,6 +80,9 @@
     // Incluimos el header
     include("componentes/header.php");
     ?>
+  // Incluimos el header
+  include("componentes/header.php");
+  ?>
 
     <div class="container mt-5">
 
@@ -121,6 +124,19 @@
                                 <option value="trabajador2">Trabajador 2</option>
                             </select>
                         </div>
+                    <div class="mb-3">
+                        <label for="estado" class="form-label">Estado:</label>
+                        <select class="form-select" id="estado" name="estado" required>
+                            <option value="en-preparacion">En preparación</option>
+                            <option value="terminado">Terminado</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="asignado" class="form-label">Asignado a:</label>
+                        <select class="form-select" id="asignado" name="asignado" required>
+                            <option value="trabajador1">Trabajador 1</option>
+                            <option value="trabajador2">Trabajador 2</option>
+                        </select>
                     </div>
                     <div class="mb-3">
                         <label for="comentario" class="form-label">Comentario:</label>
@@ -176,6 +192,9 @@
     // Incluimos el footer
     include("componentes/footer.php");
     ?>
+  // Incluimos el footer
+  include("componentes/footer.php");
+  ?>
 
 </body>
 

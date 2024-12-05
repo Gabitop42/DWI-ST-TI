@@ -4,6 +4,7 @@ include("componentes/header.php");
 ?>
 <!-- Incluir el componente Back -->
 <?php include("componentes/backButton.php"); ?>
+
 <div class="container mt-5">
     <h1 class="text-center mb-4" style="color: #ff9800;">Formulario de Ticket</h1>
 
@@ -68,6 +69,8 @@ include("componentes/header.php");
                         <button type="reset" class="btn" style="background-color: #2196f3; color: white;">Nuevo</button>
                     </div>
                 </div>
+                <button type="submit" class="btn"
+                    style="background-color: #ff9800; color: white; width: 100%;">Guardar</button>
             </form>
         </div>
 
@@ -75,7 +78,11 @@ include("componentes/header.php");
         <div class="col-md-6">
             <h4 class="text-center mb-4" style="color: #ff9800;">Datos Guardados</h4>
             <table class="table table-bordered table-hover" style="border: 2px solid #ddd;">
+<<<<<<< HEAD
                 <thead class="table-dark text-center" style="background-color: #ff9800; color: white;">
+=======
+                <thead class="table-dark" style="background-color: #ff9800; color: white;">
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
                     <tr>
                         <th>ID</th>
                         <th>Estado</th>
@@ -91,6 +98,7 @@ include("componentes/header.php");
                     <!-- Aquí se deben mostrar los datos guardados, por ejemplo, de la base de datos -->
                     <tr class="text-center" style="background-color: #fff;"
                         onclick="mostrarAccionTicket(12345, 'En preparación', '2024-11-28 12:00:00', '2024-11-28 12:00:00', 'Comentario de prueba', 'Juan Pérez', 'Pedro Gómez', '67890')">
+                    <tr style="background-color: #fff;">
                         <td>12345</td>
                         <td>En preparación</td>
                         <td>2024-11-28 12:00:00</td>

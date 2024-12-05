@@ -26,6 +26,7 @@
 
     .navbar-nav .nav-link:hover {
         color: black !important;
+        color: #fb8c00 !important;
         /* Naranja para los enlaces al pasar el cursor */
     }
     </style>
@@ -62,6 +63,11 @@
                 </div>
 
                 <!-- Columna a la derecha: Desplegable de Perfil -->
+            <a class="navbar-brand" href="#">Mi Proyecto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
