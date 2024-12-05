@@ -2,9 +2,12 @@
 // Incluimos el header
 include("componentes/header.php");
 ?>
+<<<<<<< HEAD
 <!-- Incluir el componente Back -->
 <?php include("componentes/backButton.php"); ?>
+=======
 
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
 <div class="container mt-5">
     <h1 class="text-center mb-4" style="color: #ff9800;">Formulario de Ticket</h1>
 
@@ -60,6 +63,7 @@ include("componentes/header.php");
                     <input type="text" class="form-control" id="idRequerimiento" name="idRequerimiento" required />
                 </div>
 
+<<<<<<< HEAD
                 <div class="row">
                     <div class="col-md-6 d-grid">
                         <button type="submit" class="btn"
@@ -69,8 +73,10 @@ include("componentes/header.php");
                         <button type="reset" class="btn" style="background-color: #2196f3; color: white;">Nuevo</button>
                     </div>
                 </div>
+=======
                 <button type="submit" class="btn"
                     style="background-color: #ff9800; color: white; width: 100%;">Guardar</button>
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
             </form>
         </div>
 
@@ -96,9 +102,12 @@ include("componentes/header.php");
                 </thead>
                 <tbody>
                     <!-- Aquí se deben mostrar los datos guardados, por ejemplo, de la base de datos -->
+<<<<<<< HEAD
                     <tr class="text-center" style="background-color: #fff;"
                         onclick="mostrarAccionTicket(12345, 'En preparación', '2024-11-28 12:00:00', '2024-11-28 12:00:00', 'Comentario de prueba', 'Juan Pérez', 'Pedro Gómez', '67890')">
+=======
                     <tr style="background-color: #fff;">
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
                         <td>12345</td>
                         <td>En preparación</td>
                         <td>2024-11-28 12:00:00</td>
@@ -120,6 +129,7 @@ include("componentes/header.php");
 include("componentes/footer.php");
 ?>
 
+<<<<<<< HEAD
 <!-- Modal de Acciones (se muestra al hacer clic en una fila) -->
 <?php include("componentes/pantallazos/modalAccionesTicket.php"); ?>
 
@@ -134,5 +144,7 @@ include("componentes/footer.php");
 
 <script src="componentes/pantallazos/gestionPantallas.js"></script>
 
+=======
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

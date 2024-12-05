@@ -77,12 +77,15 @@
 <body>
 
     <?php
+<<<<<<< HEAD
     // Incluimos el header
     include("componentes/header.php");
     ?>
+=======
   // Incluimos el header
   include("componentes/header.php");
   ?>
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
 
     <div class="container mt-5">
 
@@ -92,7 +95,10 @@
                 <h4>Detalles del Ticket</h4>
                 <p><strong>ID Ticket:</strong> N° 12345</p>
                 <p><strong>Estado:</strong> En preparación</p>
+<<<<<<< HEAD
                 <p><strong>Asunto:</strong> Revisión del ticket y avance en el proceso</p> <!-- Asunto del ticket -->
+=======
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
             </div>
             <div class="col-md-6">
                 <p><strong>Fecha Creación:</strong> 2024-11-28</p>
@@ -101,14 +107,18 @@
             </div>
         </div>
 
+<<<<<<< HEAD
         <!-- Incluir el componente Back -->
         <?php include("componentes/backButton.php"); ?>
 
+=======
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
         <!-- Formulario para agregar comentario -->
         <div class="card mb-4">
             <div class="card-body">
                 <h5>Agregar Comentario</h5>
                 <form>
+<<<<<<< HEAD
                     <div class="row">
                         <div class="col-md-6 mb-3">
                             <label for="estado" class="form-label">Estado:</label>
@@ -124,6 +134,7 @@
                                 <option value="trabajador2">Trabajador 2</option>
                             </select>
                         </div>
+=======
                     <div class="mb-3">
                         <label for="estado" class="form-label">Estado:</label>
                         <select class="form-select" id="estado" name="estado" required>
@@ -137,6 +148,7 @@
                             <option value="trabajador1">Trabajador 1</option>
                             <option value="trabajador2">Trabajador 2</option>
                         </select>
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
                     </div>
                     <div class="mb-3">
                         <label for="comentario" class="form-label">Comentario:</label>
@@ -189,12 +201,15 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <?php
+<<<<<<< HEAD
     // Incluimos el footer
     include("componentes/footer.php");
     ?>
+=======
   // Incluimos el footer
   include("componentes/footer.php");
   ?>
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
 
 </body>
 

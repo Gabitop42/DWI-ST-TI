@@ -25,8 +25,11 @@
     }
 
     .navbar-nav .nav-link:hover {
+<<<<<<< HEAD
         color: black !important;
+=======
         color: #fb8c00 !important;
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
         /* Naranja para los enlaces al pasar el cursor */
     }
     </style>
@@ -36,6 +39,7 @@
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
+<<<<<<< HEAD
             <div class="d-flex justify-content-between w-100">
                 <!-- Columna a la izquierda: Nombre del proyecto -->
                 <a class="navbar-brand" href="vistaListadoTickets.php">Mi Proyecto</a>
@@ -63,11 +67,13 @@
                 </div>
 
                 <!-- Columna a la derecha: Desplegable de Perfil -->
+=======
             <a class="navbar-brand" href="#">Mi Proyecto</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
+>>>>>>> b60833931aef7accd99c6a8e1e9d4e8409ac1a29
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
